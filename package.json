@@ -1,0 +1,25 @@
+{
+  "name": "burgerapp",
+  "version": "1.0.0",
+  "description": "eat burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shornbeek/BurgerApp.git"
+  },
+  "author": "hornbeek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shornbeek/BurgerApp/issues"
+  },
+  "homepage": "https://github.com/shornbeek/BurgerApp#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
