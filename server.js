@@ -6,7 +6,7 @@ let db = require('./models');
 
 
 let app = express();
-let PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8080;
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(__dirname + "/public"));
@@ -29,7 +29,7 @@ app.use('/', routes);
 
 // Syncing our sequelize models and then starting our express app
 // db.sequelize.sync({ force: true }).then(function() {
-  db.sequelize.sync().then(function() {
+db.sequelize.sync().then(function() {
   app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
