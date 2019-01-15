@@ -1,6 +1,7 @@
-<img id="burger-gif" src="https://media.giphy.com/media/xULW8BC8SxdD41CDnO/giphy.gif">
 
-<h1>Eat The Burger</h1>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<img id="burger-gif" src="https://media.giphy.com/media/xULW8BC8SxdD41CDnO/giphy.gif">
 
 <div class="row align-center" id="burger-container">
   <div id="fresh" class="col-md-offset-1 col-md-4">
@@ -12,7 +13,7 @@
               <div class="form-group">
                 <label class="burger-label" for="burger-id">{{this.id}}. {{this.burger_name}}</label>
                 <input type="hidden" id="burger-id" name="id" value="{{this.id}}"/>
-                <button class="btn btn-success" type="submit">Devour it!</button>
+                <button class="btn btn-secondary" type="submit">Devour it!</button>
               </div>
             </form>
           </div>
@@ -35,11 +36,12 @@
 </div>
 
 <div class="row">
-  <h2>Burger Time!</h2>
+  <h1>Show Me the Meats</h1>
+  {{!-- <h2>Add a Burger</h2> --}}
   <form class="form" method="POST" action="/">
     <div class="form group">
-      <textarea type="text" name="burger_name" ></textarea>
+      <textarea type="text" name="burger_name" >Enter your order here...</textarea>
     </div>
-      <button class="btn btn-primary" type="submit">Add Burger!</button>
+      <button class="btn btn-light" type="submit">Add A Burger!</button>
   </form>
 </div>

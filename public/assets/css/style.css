@@ -1,4 +1,4 @@
-li {
+/* li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
@@ -16,4 +16,104 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+} */
+
+h1, h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+ }
+
+/* * {
+ color: white;
+} */
+
+body{
+  background-color: black;
+}
+
+#burger-container{
+
+}
+#fresh{
+
+}
+#devoured{
+
+}
+#burger-gif{
+  width: 80%;
+}
+
+textarea {
+  overflow: auto;
+  width: 80%;
+}
+
+textarea {
+    overflow: auto;
+}
+.btn-light {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  /* background-color: #004A7F; */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.burger-label{
+  padding: 5px;
+  margin-bottom: -5px;
+  float: left;
+}
+.burger-div{
+  background-color: white;
+  margin: 10px;
+  border: solid 1px #555;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 18px;
+  overflow: auto;
+}
+.burger-div button{
+  float: right;
+  margin: 5px;
 }
