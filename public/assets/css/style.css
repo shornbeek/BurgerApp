@@ -104,16 +104,74 @@ textarea {
   margin-bottom: -5px;
   float: left;
 }
+
 .burger-div{
   background-color: white;
-  margin: 10px;
-  border: solid 1px #555;
+ margin-top: 25px;
   border-radius: 2px;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 18px;
-  overflow: auto;
+
 }
-.burger-div button{
+
+
+/* .burger-div button{
   float: right;
   margin: 5px;
+  
+} */
+
+.burger-div button {
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* background-color: #004A7F; */
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 5px;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
 }
+
+.btn-light:hover {
+  color: white;
+}
+
+.burger-div button:hover {
+  color: white;
+}
+
+/* a {
+  color: hotpink;
+} */
+
+/* 
+@-webkit-keyframes glowing {
+  0% { background-color: rgb(184, 181, 45); -webkit-box-shadow: 0 0 3px rgb(189, 166, 39); }
+  50% { background-color: rgb(253, 250, 40); -webkit-box-shadow: 0 0 40px rgb(248, 235, 53); }
+  100% { background-color: rgb(253, 251, 97); -webkit-box-shadow: 0 0 3px rgb(255, 252, 91); }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: rgb(184, 181, 45); -webkit-box-shadow: 0 0 3px rgb(189, 166, 39); }
+  50% { background-color: rgb(253, 250, 40); -webkit-box-shadow: 0 0 40px rgb(248, 235, 53); }
+  100% { background-color: rgb(253, 251, 97); -webkit-box-shadow: 0 0 3px rgb(255, 252, 91); }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: rgb(184, 181, 45); -webkit-box-shadow: 0 0 3px rgb(189, 166, 39); }
+  50% { background-color: rgb(253, 250, 40); -webkit-box-shadow: 0 0 40px rgb(248, 235, 53); }
+  100% { background-color: rgb(253, 251, 97); -webkit-box-shadow: 0 0 3px rgb(255, 252, 91); }
+}
+
+@keyframes glowing {
+  0% { background-color: rgb(184, 181, 45); -webkit-box-shadow: 0 0 3px rgb(189, 166, 39); }
+  50% { background-color: rgb(253, 250, 40); -webkit-box-shadow: 0 0 40px rgb(248, 235, 53); }
+  100% { background-color: rgb(253, 251, 97); -webkit-box-shadow: 0 0 3px rgb(255, 252, 91); }
+} */

@@ -4,7 +4,7 @@
 <img id="burger-gif" src="https://media.giphy.com/media/xULW8BC8SxdD41CDnO/giphy.gif">
 
 <div class="row align-center" id="burger-container">
-  <div id="fresh" class="col-md-offset-1 col-md-4">
+  <div id="fresh" class="col-md-offset-1 col-md-5">
     {{#each burger}}
       {{#unless this.devoured}}
           <div class="burger-div">
@@ -40,7 +40,7 @@
   {{!-- <h2>Add a Burger</h2> --}}
   <form class="form" method="POST" action="/">
     <div class="form group">
-      <textarea type="text" name="burger_name" >Enter your order here...</textarea>
+      <textarea type="text" name="burger_name" placeholder="Enter your order here..."></textarea>
     </div>
       <button class="btn btn-light" type="submit">Add A Burger!</button>
   </form>
